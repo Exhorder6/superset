@@ -83,3 +83,5 @@ websocket-client==0.57.0
 # The following packages are considered to be unsafe in a requirements file:
 # pip
 # setuptools
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
